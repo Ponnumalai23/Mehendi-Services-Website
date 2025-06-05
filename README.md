@@ -51,3 +51,35 @@ npm install
 
 🌐 The app will run on: http://localhost:3000
 
+---
+###2️⃣ Run Backend (Node.js + MongoDB)
+
+# Step into the server folder
+cd server
+
+# Install backend dependencies
+npm install
+
+# Create a .env file with the following content:
+# .env
+PORT=8080
+MONGO_URI="mongodb://localhost:27017/Mehndi"
+
+# Start the backend server
+npm nodemon
+
+🌐 The backend will run on: http://localhost:8080
+
+🔧 Features
+
+💼 Admin dashboard to manage Mehendi artists and bookings
+
+👩‍🎨 Artist profile listing and details
+
+📅 Booking form
+
+📧 Inquiry/contact form
+
+🔐 Secure environment using .env
+
+
