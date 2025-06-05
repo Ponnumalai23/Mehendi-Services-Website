@@ -13,8 +13,4 @@ cd client
 npm install
 npm start
 
-Backend
-```bash
-cd server
-npm install
-npm nodemon
+ 
