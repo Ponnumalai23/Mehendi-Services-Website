@@ -51,22 +51,3 @@ npm install
 
 🌐 The app will run on: http://localhost:3000
 
-### 2️⃣ Run Backend (Node.js + MongoDB)
-
-# Start the development server
-npm start
-
-# Step into the server folder
-cd server
-
-# Install backend dependencies
-npm install
-
-# Create a .env file with the following content:
-# .env
-PORT=5000
-MONGO_URI=your-mongodb-connection-string
-
-# Start the backend server
-npm start
-
